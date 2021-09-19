@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CPACK_PACKAGE_NAME "txt_dns")
 set(CPACK_PACKAGE_CONTACT "epicstyt@gmail.com")
-#set(CPACK_DEBIAN_PACKAGE_DEPENDS "libssl-dev")
+
 include(CPack)
 
 add_executable(txt_dns main.cpp)
